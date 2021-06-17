@@ -7720,3 +7720,7 @@ section.places-item {
   display: block;
   margin-bottom: 20px;
 }
+
+.content-container {
+  padding: 5em;
+}
