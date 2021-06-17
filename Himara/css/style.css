@@ -206,7 +206,7 @@ p {
 }
 
 a {
-  color: #b5bec4;
+  color: #000000;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -2929,7 +2929,7 @@ section.gray {
   background: #f5f3f0;
   border-bottom: 1px solid #f1f0ed;
   border-top: 1px solid #f1f0ed;
-  color: #9fa6ab;
+  color: #000000;
 }
 
 section.blue {
@@ -3022,7 +3022,7 @@ section.wave-blue:after {
 }
 
 .section-title h4 {
-  color: #e3e3e3;
+  color: #000000;
   font-size: 68px;
   font-family: "Oswald", sans-serif;
   font-weight: 600;
@@ -3040,7 +3040,7 @@ section.wave-blue:after {
 }
 
 section.gray .section-title h4 {
-  color: #d7d8d9;
+  color: #000000;
 }
 
 section.blue .section-title h4,
