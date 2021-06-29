@@ -62,25 +62,23 @@ const fourthContentDesktop = `
 window.onresize = window.onload = function() {
     width = this.innerWidth;
     height = this.innerHeight;
-    if(width < 770) {
-        if(check == false) {
+    console.log(width);
+        if(check == false && width < 770) {
             const second = document.getElementById('forDesktop2');
             second.remove();
             contents[3].insertAdjacentHTML('afterbegin',secondContentMobile);
             const fourth = document.getElementById('forDesktop4');
-            console.log(fourth);
             fourth.remove();
             contents[5].insertAdjacentHTML('afterbegin',fourthContentMobile);
             check = true;
-        }else if(check == true) {
+        }else if(check == true  && width >= 770) {
             const second = document.getElementById('forMobile2');
             second.remove();
             contents[3].insertAdjacentHTML('beforeend',secondContentDesktop);
             const fourth = document.getElementById('forMobile4');
-            console.log(fourth);
             fourth.remove();
-            contents[5].insertAdjacentHTML('beforeend',fourhtContentDesktop);
+            contents[5].insertAdjacentHTML('beforeend',fourthContentDesktop);
             check = false
         }
-    }
 } 
+

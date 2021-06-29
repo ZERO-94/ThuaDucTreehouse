@@ -62,12 +62,14 @@
                 <a href="mailto:contact@hotelhimara.com">
                   <i class="fa fa-envelope-o "></i>contact@hotelhimara.com</a>
               </li>
+              <!--
               <li class="language-menu">
                 <a href="#" class="active-language"><img src="images/icons/flags/gb.png" alt="Image">EN</a>
               </li>
               <li>
                 <a href="#" class="active-language"><img src="images/icons/flags/vn.png" alt="Image">VN</a>
               </li>
+              -->
             </ul>
           </div>
         </div>
@@ -97,12 +99,13 @@
                 <a href="index8.html">GIỚI THIỆU</a>
               </li>
               <li class="menu-item">
-                <a href="rooms-list.html">LOẠI PHỎNG</a>
+                <a href="gallery-3columns.html">THƯ VIỆN ẢNH</a>
               </li>
               <li class="menu-item">
-                <a href="gallery-3columns.html">THƯ VIỆN ẢNH</a>
-              <li class="menu-item">
                 <a href="offers.html">KHUYẾN MÃI</a>
+              </li>
+              <li class="menu-item">
+                <a href="rooms-list.html">LOẠI PHỎNG</a>
               </li>
               <li class="menu-item active">
                 <a href="contact-style2.html">LIÊN HỆ</a>
@@ -121,55 +124,19 @@
       <!-- ========== MAIN ========== -->
       <main class="contact-page">
         <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <div class="section-title">
-                <h4>CONTACT US</h4>
-                <p class="section-subtitle">Let’s Talk</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sit, fugiat at in assumenda corrupti autem iste eveniet eaque vitae beatae tenetur, voluptatem eius. Numquam.</p>
-              <!-- CONTACT FORM -->
-              <form id="contact-form" class="contact-form">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input class="form-control" name="name" placeholder="Name" type="text">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input class="form-control" name="email" placeholder="Email" type="email">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input class="form-control" name="subject" placeholder="Subject" type="text">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input class="form-control" name="phone" placeholder="Phone" type="text">
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Message"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <button class="btn mt30">SEND YOUR MESSAGE</button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
+          <div class="row" style="display:flex; justify-content: center;">
+            <div class="col-md-3"></div>
             <div class="col-md-4">
               <div class="Sidebar">
                 <div class="contact-details">
-                  <div class="section-title sm">
-                    <h4>GET IN TOUCH</h4>
-                    <p class="section-subtitle">HOW TO FIND US</p>
+                  <div class="section-title sm" >
+                    <style>
+                      .section-title::after {
+                        content: none;
+                      }
+                    </style>
+                    <h4 style="text-align: center;">GET IN TOUCH</h4>
+                    <h3 class="section-subtitle" style="text-align: center;">HOW TO FIND US</h3>
                   </div>
                   <div class="contact-info">
                     <ul>
@@ -187,10 +154,6 @@
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-fax"></i>+1 888 123 4567</a>
-                      </li>
-                      <li>
-                        <a href="#">
                           <i class="fa fa-facebook"></i>www.hotelhimara.com</a>
                       </li>
                     </ul>
@@ -198,7 +161,8 @@
                 </div>
               </div>
             </div>
-          </div>
+            <div class="col-md-3"></div>
+            </div>
         </div>
       </main>
       <!-- ========== FOOTER ========== -->
